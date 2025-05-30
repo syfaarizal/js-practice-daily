@@ -207,3 +207,47 @@
 //     console.log("Selamat datang!")
 // }
 
+// ARRAY
+const rakSepatu = ["Nike", "Adidas", "Converse", "Puma"];
+
+rakSepatu.push("Louboutin")
+rakSepatu.pop()
+rakSepatu.unshift("YSL")
+rakSepatu.shift()
+console.log(rakSepatu.length)
+
+
+// Looping
+for(var i = 0; i < 10;i+=1){
+    console.log("Nama")
+}
+
+let mahasiswa = ["May", "Agus", "Doni"] // <= Array Looping
+let nilai = [70, 80, 90]
+for(var i = 0; i < mahasiswa.length;i+=1) {
+    console.log(mahasiswa[i] + " " + nilai[i])
+}
+
+let murid = ["Udin", "Asep", "Siti", "Romlah"] // <= Array Looping
+for(var i = 0; i < murid.length; i+=1) {
+    console.log(murid[i])
+}
+
+let mahasiswaa= ["Pororo", "Edi", "Risol"] // <= Array Looping
+for (nama of mahasiswaa){
+    console.log(nama)
+}
+
+// di gunakan ketika looping tidak ada nilai pastinya
+var i = 0
+do{ //bakal ngejalanin codingan sekali dulu, baru dia ngecek kondisinya
+    console.log(5) // input angka
+    i+=1
+} while(i < 5) // <= (cek tipe data kalau bkn != number)
+
+// while = dia ga bakal ngelakuin loopingan nya kalau kondisinya emg ga terpenuhi. while mirip if, cuma dia looping
+// let i = 0;
+while(i < 7) { // kalo i > dari 7, codingan console.log gaakan di jalanin
+    console.log("loop ke" + i);
+    i++;
+}
