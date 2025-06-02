@@ -72,18 +72,18 @@
 // }
 
 // DOM EVENT
-const hello = document.getElementById("hello");
+// const hello = document.getElementById("hello");
 
-hello.addEventListener("mouseenter", function() {
+// hello.addEventListener("mouseenter", function() {
     // console.log("Mouse enter hello world text")
-    hello.style.border = "1px solid red"
-})
+    // hello.style.border = "1px solid red"
+// })
 
-function pickMe() {
-    const pick = document.getElementById("boom");
-    pick.style.display = "block";
-}
+// function pickMe() {
+//     const pick = document.getElementById("boom");
+//     pick.style.display = "block";
+// }
 
-function addBorder(el) {
-    el.style.border = "5px solid pink"
-}
+// function addBorder(el) {
+//     el.style.border = "5px solid pink"
+// }
