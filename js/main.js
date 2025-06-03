@@ -251,27 +251,3 @@ while(i < 7) { // kalo i > dari 7, codingan console.log gaakan di jalanin
     console.log("loop ke" + i);
     i++;
 }
-
-let namaa = "Ali";
-let usia = 20;
-let tahunLahir = 2025 - usia;
-
-console.log("Nama saya " + namaa);
-console.log("Saya lahir tahun " + tahunLahir);
-
-let panjang = 5;
-let lebar = 3;
-let luasPersegiPanjang = panjang * lebar;
-
-console.log(luasPersegiPanjang);
-
-let alas = 4;
-let tinggi = 6;
-let luasSegitiga = 1/2 * alas * tinggi;
-
-console.log(luasSegitiga)
-
-let name = "Udin";
-let umur = 20;
-
-console.log(`Halo, nama saya ${name}, umur saya ${umur} tahun.`)
