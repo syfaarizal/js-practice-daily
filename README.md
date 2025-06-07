@@ -18,11 +18,13 @@ Halo! 👋 Aku Syifa, mahasiswa Teknik Informatika yang lagi eksplor dunia JavaS
 
 ## 📁 Struktur Proyek
 
+<pre><code>
 ├── index.html ← UI utama + link ke semua JS file
 ├── function.js ← Latihan khusus function
 ├── dom.js ← Eksperimen manipulasi DOM
 ├── main.js ← Latihan bebas/umum JavaScript (boleh campur konsep)
 ├── README.md ← Dokumentasi proyek
+</code></pre>
 
 
 > 💬 *Catatan: Ini adalah proyek latihan pribadi. Kode masih simpel dan banyak komentar supaya mudah dipahami.*
