@@ -100,3 +100,33 @@ switch (operators) {
 } 
 
 console.log(`Hasil: ${hasil}`);
+
+let buah = ["Apel", "Mangga"];
+buah.push("Jeruk");
+console.log("Setelah push: " + buah);
+buah.unshift("Semangka");
+console.log("Setelah unshift: " + buah);
+buah.pop();
+console.log("Setelah pop: " + buah);
+buah.shift();
+console.log("Setelah shift: " + buah);
+console.log("Hasil akhir:" + buah);
+
+let antrian = ["Budi", "Ani", "Susi"];
+console.log("Awal antrian: " + antrian);
+
+// Pelanggan baru datang
+antrian.push("Udin");
+console.log("Udin masuk antrian: " + antrian);
+
+// Kasir memanggil pelanggan depan 
+let pelanggan = antrian.shift();
+console.log(pelanggan, "sudah dilayani. Antrian sekarang: " + antrian);
+
+// VIP masuk ke depan
+antrian.unshift("Joko");
+console.log("VIP masuk antrian: " + antrian);
+
+// Kasir melayani lagi
+pelanggan = antrian.shift();
+console.log(pelanggan, "sudah dilayani. Antrian sekarang: " + antrian);
