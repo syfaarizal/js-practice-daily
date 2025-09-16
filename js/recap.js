@@ -130,3 +130,27 @@ console.log("VIP masuk antrian: " + antrian);
 // Kasir melayani lagi
 pelanggan = antrian.shift();
 console.log(pelanggan, "sudah dilayani. Antrian sekarang: " + antrian);
+
+let ntrian = ["Andi", "Budi"];
+let counter = 1; // buat nama pelanggan baru
+let putaran = 0;
+let maxPutaran = 5; // berhenti setelah 5x siklus
+
+console.log("Awal antrian: " + ntrian);
+
+let kasir = setInterval(() => {
+    // Pelanggan baru datang
+    let pelangganBaru = "Pelanggan" + counter++;
+    antrian.push(pelangganBaru);
+    console.log(pelangganBaru + " masuk antrian: " + ntrian);
+
+    // Kasir melayani pelanggan terdepan
+    let dilayani = ntrian.shift();
+    console.log(dilayani, "sedang dilayani. Antrian sekarang: " + ntrian);
+
+    // Hitung putaran
+    if (putaran >= maxPutaran) {
+        clearInterval(kasir);
+        console.log("Simulasi selesai");
+    }
+}, 3000); // setiap 3 detik
