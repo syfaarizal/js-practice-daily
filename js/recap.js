@@ -154,3 +154,21 @@ let kasir = setInterval(() => {
         console.log("Simulasi selesai");
     }
 }, 3000); // setiap 3 detik
+
+// Recap Functions
+
+function sapa(nama) {
+    console.log(`Halo, ${nama}, selamat datang!`);
+}
+
+sapa("Sylus");
+sapa("Udin");
+sapa("Budi");
+
+function hitungLuasPersegiPanjang(p, l) {
+    let luas = p * l;
+    return luas;
+}
+
+let luas = hitungLuasPersegiPanjang(5, 10);
+console.log(luas);
