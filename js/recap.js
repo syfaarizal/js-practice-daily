@@ -172,3 +172,11 @@ function hitungLuasPersegiPanjang(p, l) {
 
 let luas = hitungLuasPersegiPanjang(5, 10);
 console.log(luas);
+
+function hitungLuasSegitig(a, t) {
+    let luas = 1/2 * a * t;
+    return luas;
+}
+
+let luasSegitig = hitungLuasSegitig(4, 8);
+console.log(luasSegitig);
