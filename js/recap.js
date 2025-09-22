@@ -180,3 +180,11 @@ function hitungLuasSegitig(a, t) {
 
 let luasSegitig = hitungLuasSegitig(4, 8);
 console.log(luasSegitig);
+
+function hitungLuasLingkaran(r) {
+    let luas = 3.14 * r * r;
+    return luas;
+}
+
+let luasLingkaran = hitungLuasLingkaran(5);
+console.log(luasLingkaran);
