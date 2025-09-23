@@ -87,3 +87,13 @@
 // function addBorder(el) {
 //     el.style.border = "5px solid pink"
 // }
+
+// function removeBorder(el) {
+//     el.style.border = "none"
+// }
+// function ubahWarna(el) {
+//     el.style.backgroundColor = "purple"
+// }
+// function resetWarna(el) {
+//     el.style.backgroundColor = "white"
+// }
