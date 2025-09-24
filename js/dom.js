@@ -97,3 +97,15 @@
 // function resetWarna(el) {
 //     el.style.backgroundColor = "white"
 // }
+
+// function gantiWarna() {
+//     const box = document.getElementById("box");
+//     box.style.backgroundColor = "purple"
+// }
+// function balikWarna() {
+//     const box = document.getElementById("box");
+//     box.style.backgroundColor = "white"
+// }
+// function klikSaya() {
+//     alert("Tombol sudah diklik")
+// }
