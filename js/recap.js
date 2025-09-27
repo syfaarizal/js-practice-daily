@@ -205,3 +205,18 @@ console.log(luasLingkaran);
 // function resetTeks() {
 //     document.getElementById("hello").innerText = "Hello World!";
 // }
+function gantiWarna() {
+    document.body.style.backgroundColor = "lightblue";
+}
+function sembunyi() {
+    document.getElementById("hello").style.display = "none";
+}
+function tampil() {
+    document.getElementById("hello").style.display = "block";
+}
+function ubahTeks() {
+    document.getElementById("hello").innerText = "Hello, udah diubah teksnya";
+}
+function resetTeks() {
+    document.getElementById("hello").innerText = "Hello World!";    
+}
