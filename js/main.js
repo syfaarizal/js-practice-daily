@@ -251,3 +251,31 @@ while(i < 7) { // kalo i > dari 7, codingan console.log gaakan di jalanin
     console.log("loop ke" + i);
     i++;
 }
+
+let num1 = 10;
+let num2 = 2;
+let operator = '/';
+let hasil;
+switch (operator) {
+    case ('+'):
+        hasil = num1 + num2;
+        break;
+    case ('-'):
+        hasil = num1 - num2;    
+        break;
+    case ('*'):
+        hasil = num1 * num2;
+        break;
+    case ('/'):
+        hasil = num1 / num2;    
+        if (num2 !== 0) {
+            hasil = num1 / num2;
+        } else {
+            hasil = 'Error';
+        }
+        break;
+    default:
+        hasil = 'Operator tidak dikenal';
+        break;
+}
+console.log(`Hasil: ${hasil}`);
