@@ -189,34 +189,7 @@ function hitungLuasLingkaran(r) {
 let luasLingkaran = hitungLuasLingkaran(5);
 console.log(luasLingkaran);
 
-// Recap DOM Manipulation
-// function gantiWarna() {
-//     document.body.style.backgroundColor = "lightblue";
-// }
-// function sembunyi() {
-//     document.getElementById("hello").style.display = "none";
-// }
-// function tampil() {
-//     document.getElementById("hello").style.display = "block";
-// }
-// function ubahTeks() {
-//     document.getElementById("hello").innerText = "Hello, udah diubah teksnya";
-// }
-// function resetTeks() {
-//     document.getElementById("hello").innerText = "Hello World!";
-// }
-function gantiWarna() {
-    document.body.style.backgroundColor = "lightblue";
-}
-function sembunyi() {
-    document.getElementById("hello").style.display = "none";
-}
-function tampil() {
-    document.getElementById("hello").style.display = "block";
-}
-function ubahTeks() {
-    document.getElementById("hello").innerText = "Hello, udah diubah teksnya";
-}
-function resetTeks() {
-    document.getElementById("hello").innerText = "Hello World!";    
-}
+// map HOF
+let harga = [10000, 20000, 30000];
+let hargaNaik = harga.map(h => h * 1.1);
+console.log(hargaNaik);
