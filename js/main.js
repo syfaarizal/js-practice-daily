@@ -279,3 +279,9 @@ switch (operator) {
         break;
 }
 console.log(`Hasil: ${hasil}`);
+
+// Recap
+let alas = 10;
+let tinggi = 5;
+let luasSegitiga = 1/2 * alas * tinggi;
+console.log(luasSegitiga)
