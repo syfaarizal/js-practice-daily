@@ -61,3 +61,15 @@
 //     console.log("Arrow Function")
 // }
 // arrowFunction()
+
+// let arrowFunction = () => console.log("Arrow Function")
+// arrowFunction()
+
+// let arrowFunction = () => "Arrow Function"
+// console.log(arrowFunction())
+// let arrowFunction = () => 10
+// console.log(arrowFunction())
+// let arrowFunction = () => ({name: "Udin"})
+// console.log(arrowFunction())
+// let arrowFunction = () => [1,2,3,4,5]
+// console.log(arrowFunction())
