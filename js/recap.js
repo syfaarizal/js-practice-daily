@@ -193,3 +193,8 @@ console.log(luasLingkaran);
 let harga = [10000, 20000, 30000];
 let hargaNaik = harga.map(h => h * 1.1);
 console.log(hargaNaik);
+
+// filter HOF
+let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let genap = angka.filter(a => a % 2 === 0);
+console.log(genap);
