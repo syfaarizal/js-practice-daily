@@ -210,3 +210,14 @@ console.log(sylus); // Mahasiswa { nama: 'Sylus', umur: 20 }
 
 let udin = new Mahasiswa("Udin", 22);
 console.log(udin); // Mahasiswa { nama: 'Udin', umur: 22 }
+
+// class
+class Mobil {
+    constructor(merk, tahun) {
+        this.merk = merk;
+        this.tahun = tahun;
+    }
+}
+
+let bmw = new Mobil("BMW", 2020);
+console.log(bmw); // Mobil { merk: 'BMW', tahun: 2020 }
