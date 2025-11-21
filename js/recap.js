@@ -198,3 +198,12 @@ console.log(hargaNaik);
 let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let genap = angka.filter(a => a % 2 === 0);
 console.log(genap);
+
+// constructor
+function Mahasiswa(nama, umur) {
+    this.nama = nama;
+    this.umur = umur;
+}
+
+let sylus = new Mahasiswa("Sylus", 20);
+console.log(sylus); // Mahasiswa { nama: 'Sylus', umur: 20 }
