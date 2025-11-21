@@ -207,3 +207,6 @@ function Mahasiswa(nama, umur) {
 
 let sylus = new Mahasiswa("Sylus", 20);
 console.log(sylus); // Mahasiswa { nama: 'Sylus', umur: 20 }
+
+let udin = new Mahasiswa("Udin", 22);
+console.log(udin); // Mahasiswa { nama: 'Udin', umur: 22 }
