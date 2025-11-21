@@ -221,3 +221,6 @@ class Mobil {
 
 let bmw = new Mobil("BMW", 2020);
 console.log(bmw); // Mobil { merk: 'BMW', tahun: 2020 }
+
+let avanza = new Mobil("Avanza", 2018);
+console.log(avanza); // Mobil { merk: 'Avanza', tahun: 2018 }
